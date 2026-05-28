@@ -12,4 +12,7 @@ class Produto():
 
         novo_produto = Produto(nome, categoria, preco)
         return novo_produto
-        
+    
+    def editar_preco(self):
+        novo_preco = float(input("Digite o novo valor do produto: "))
+        self.preco = novo_preco
