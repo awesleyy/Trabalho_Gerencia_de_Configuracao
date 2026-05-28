@@ -5,7 +5,7 @@ class perfil():
         self.email = email
         self.senha = senha
 
-    def editar_usuario(self):
+    def editar_perfil(self):
         nome = str(input("Digite o seu nome: "))
         self.nome = nome
         idade = str(input("Digite a sua idade: "))
