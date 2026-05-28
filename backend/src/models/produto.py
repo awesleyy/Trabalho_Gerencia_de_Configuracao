@@ -16,3 +16,7 @@ class Produto():
     def editar_preco(self):
         novo_preco = float(input("Digite o novo valor do produto: "))
         self.preco = novo_preco
+
+    def editar_nome(self):
+        novo_nome = str(input("Digite o novo nome do produto: "))
+        self.nome = novo_nome
