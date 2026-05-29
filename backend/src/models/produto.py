@@ -25,4 +25,4 @@ class Produto():
         print(f"""
             Produto: {self.nome}
             Categoria: {self.categoria} 
-            Preço: {self.preco}  """)
+            Preço: {self.preco}  \n""")
