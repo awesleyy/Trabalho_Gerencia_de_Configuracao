@@ -63,7 +63,7 @@ Começamos a desenvolver um pequeno sistema de loja de produtos, criando as clas
 * As dificuldades encontradas no geral não foram de grande impacto, mais a nível de codificação e organização de pastas, além da padronização das branchs. O GitHub Flow é dinâmico e permite fácil entendimento  para projetos pequenos. Acreditamos que dificuldades seriam encontradas em cenários em que o desenvolvimento começasse a escalar. 
 
 ## 5. Problemas de Merge ou Conflitos
-No início do projeto, a equipe passou por um processo de maturação no uso do Git, lidando diretamente com a resolução de conflitos. Foram registrados dois episódios de modificação simultânea em arquivos vazios: o primeiro no próprio README.md e o segundo no main.py, durante a criação das funções das classes. Em ambos os casos, a equipe resolveu os conflitos de forma rápida utilizando a estratégia de aceitar ambas as alterações (Accept Both Changes), integrando o trabalho dos membros de maneira colaborativa e sem perda de progresso.
+* No início do projeto, a equipe passou por um processo de maturação no uso do Git, lidando diretamente com a resolução de conflitos. Foram registrados dois episódios de modificação simultânea em arquivos vazios: o primeiro no próprio README.md e o segundo no main.py, durante a criação das funções das classes. Em ambos os casos, a equipe resolveu os conflitos de forma rápida utilizando a estratégia de aceitar ambas as alterações (Accept Both Changes), integrando o trabalho dos membros de maneira colaborativa e sem perda de progresso.
 
 
 ## 6. Opinião do Grupo sobre a Estratégia
