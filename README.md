@@ -56,15 +56,17 @@ Começamos a desenvolver um pequeno sistema de loja de produtos, criando as clas
 
 
 ## 3. Principais Vantagens Percebidas
-* Vantagem 1
-* Vantagem 2
+* Uma das principais vantagens percebidas ao utilizar esse modelo é a capacidade da main estar sempre estável e pronta para produção. Além disso, as branchs separadas para depois dar merge na main conferem bastante organização para o projeto como um todo. Basicamente, o código que sobe para o GitHub sempre é revisado antes de ir para a main, pois são abertos Pull Requests que, posteriormente, vão para a main.
+* Outra vantagem relevante é a facilidade do processo de codificação, pois falando sobre níveis de branchs, existem apenas dois. São eles: a main que segue ativa e estável e as branchs de segundo nível que logo mais vão parar na main. 
 
 ## 4. Dificuldades Encontradas
-* Dificuldades
+* As dificuldades encontradas no geral não foram de grande impacto, mais a nível de codificação e organização de pastas, além da padronização das branchs. O GitHub Flow é dinâmico e permite fácil entendimento  para projetos pequenos. Acreditamos que dificuldades seriam encontradas em cenários em que o desenvolvimento começasse a escalar. 
 
 ## 5. Problemas de Merge ou Conflitos
-* Enfrentamos problemas de merge na classe principal no momento de unificar o código de todos (desenvolver melhor essa explicação)
+No início do projeto, a equipe passou por um processo de maturação no uso do Git, lidando diretamente com a resolução de conflitos. Foram registrados dois episódios de modificação simultânea em arquivos vazios: o primeiro no próprio README.md e o segundo no main.py, durante a criação das funções das classes. Em ambos os casos, a equipe resolveu os conflitos de forma rápida utilizando a estratégia de aceitar ambas as alterações (Accept Both Changes), integrando o trabalho dos membros de maneira colaborativa e sem perda de progresso.
 
 
 ## 6. Opinião do Grupo sobre a Estratégia
-Nossa avaliação final é ...
+* Após analisarmos a dinâmica de desenvolvimento da equipe, identificamos que o GitHub Flow atende muito bem à nossa necessidade de simplicidade e agilidade, facilitando o entendimento de todo o time sobre o ciclo de entrega.
+
+* No entanto, observamos dois pontos críticos que demandam evolução: a alta proliferação de branches desalinhadas (gerando desorganização no repositório) e a necessidade de implementar uma rotina de testes mais robusta para garantir a estabilidade da branch main
