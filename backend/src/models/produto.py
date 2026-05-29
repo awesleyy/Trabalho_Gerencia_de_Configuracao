@@ -20,3 +20,9 @@ class Produto():
     def editar_nome(self):
         novo_nome = str(input("Digite o novo nome do produto: "))
         self.nome = novo_nome
+
+    def ver_produto(self):
+        print(f"""
+            Produto: {self.nome}
+            Categoria: {self.categoria} 
+            Preço: {self.preco}  """)
