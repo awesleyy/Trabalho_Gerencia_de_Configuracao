@@ -1,6 +1,7 @@
-from backend.src.models.produto import Produto
-
-
+from backend.src.models.cliente import Cliente 
+from backend.src.models.perfil import Perfil 
+from backend.src.models.carrinho import Carrinho 
+from backend.src.models.produto import Produto 
 
 while i != 0:
     print("1 - Carrinho.")
@@ -60,3 +61,4 @@ while i != 0:
         elif u == 4:
             #função
             pass
+
