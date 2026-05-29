@@ -39,7 +39,7 @@ Se fazem alterações progressivas com commits atômicos até desenvolvimento es
 
 
 
-Este é o relato organizado da nossa discussão sobre a aplicação prática de controle de versão[cite: 1].
+Este é o relato organizado da nossa discussão sobre a aplicação prática de controle de versão.
 
 
 ## 2. Organização do Fluxo de Trabalho
